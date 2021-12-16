@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954359245842",
+    "project_id": "practicalogin-b319e",
+    "storage_bucket": "practicalogin-b319e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954359245842:android:db6e3975bfe5bcd8307ccb",
+        "android_client_info": {
+          "package_name": "com.ut.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954359245842-sh5vdu3u6klc4snmu7c550u2kt3psd8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaFAzinzmfWEKZher9ytkoHb57vUz0rQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954359245842-sh5vdu3u6klc4snmu7c550u2kt3psd8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

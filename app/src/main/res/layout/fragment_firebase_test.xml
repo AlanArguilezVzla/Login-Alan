@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Fragments.FirebaseTest">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSendCoordinates"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="@string/fragment_text_buttonCoordinates"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btngoToActivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/fragment_text_buttonList"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSendCoordinates"
+            app:layout_constraintVertical_bias="0.112" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

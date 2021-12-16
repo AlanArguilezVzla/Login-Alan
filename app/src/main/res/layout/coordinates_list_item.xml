@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/txtLandL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud y Longitud"
+        app:layout_constraintBottom_toTopOf="@+id/txtView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/txtView"
+        app:layout_constraintStart_toStartOf="@+id/txtLandL"
+        app:layout_constraintTop_toBottomOf="@+id/txtLandL"
+        app:layout_constraintVertical_bias="0.2"
+        tools:text="Fecha" />
+
+    <View
+        android:id="@+id/txtView"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/side_nav_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgDelete"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/txtDate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506"
+        app:srcCompat="@drawable/ic_delete_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
